@@ -1,0 +1,265 @@
+body {
+  background-color: #898989;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em;
+  line-height: 1.2em;
+}
+
+#wrap {
+  width: 971px;
+  text-align: left;
+  margin: 0 auto;
+  background: url('./assets/images/shadow.png') repeat-y;
+  min-height: 780px;
+}
+
+#Logo {
+  float: left;
+  width: 265px;
+  margin: 60px 0 0 40px;
+}
+
+header {
+  height: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+#top_menu {
+  width: 600px;
+  margin: 50px 20px 0 0;
+  float: right;
+}
+
+#top_menu ul {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  color: #333;
+}
+
+#top_menu ul li {
+  float: left;
+  margin: 0 5px;
+}
+
+#top_menu a {
+  display: block;
+  text-decoration: none;
+  height: 20px;
+  padding: 10px;
+  color: #333;
+}
+
+#top_menu a:hover {
+  background: url('./assets/images/blue.gif') repeat-x;
+  background-position: bottom;
+}
+
+#Login {
+  float: right;
+  margin: 20px 64px 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  word-spacing: 5px;
+}
+
+#Login a {
+  text-decoration: none;
+  color: #333;
+}
+
+#Login a:hover {
+  color: #f90;
+}
+
+footer {
+  margin: 50px 0 0 0;
+  height: 80px;
+  background: url('./assets/images/under_logo.png') no-repeat;
+  background-position: 40px center;
+}
+
+footer hr {
+  width: 900px;
+  margin: 0 0 0 35px;
+}
+
+#copy {
+  font-family: Verdana, Geneva, sans-serif;
+  width: 450px;
+  margin: 20px 0 0 190px;
+  float: left;
+}
+
+#social {
+  width: 130px;
+  margin: 20px 20px 0 0;
+  float: right;
+}
+
+#social img {
+  margin: 0 7px;
+}
+
+#sub_img {
+  width: 971px;
+  height: 179px;
+  background: url(./assets/images/sub_back.png) no-repeat;
+  background-position: top;
+}
+
+#sub_menu {
+  width: 238px;
+  float: left;
+  margin: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+}
+
+#sub_menu ul {
+  list-style: none;
+  margin: 20px 0 0 10px;
+}
+
+#sub_menu a {
+  text-decoration: none;
+  color: #666;
+  display: block;
+  height: 15px;
+  width: 150px;
+  padding: 7px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+  background: url(./assets/images/bullet.gif) no-repeat right center;
+}
+
+#sub_menu a:hover {
+  background: url(./assets/images/bullet_orange.gif) no-repeat right center;
+  color: #f90;
+}
+
+#contents #board {
+  width: 670px;
+  border-collapse: collapse;
+}
+
+#contents #board th {
+  text-align: center;
+  height: 20px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: sans-serif, '맑은 고딕', '돋움';
+  font-weight: bold;
+  padding: 5px;
+  background: url(./assets/images/t_back.jpg) repeat-x center center;
+  color: #fff;
+}
+
+#contents #board td {
+  text-align: center;
+  padding: 6px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+}
+
+#contents #board td.left {
+  text-align: left;
+}
+
+#contents #board .tno {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 50px;
+}
+
+#contents #board .twriter {
+  width: 100px;
+}
+
+#contents #board .ttitle {
+  width: 380px;
+  letter-spacing: 0.1em;
+}
+
+#contents #board .tread {
+  width: 30px;
+}
+
+#contents #board .tdate {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100px;
+}
+
+#contents #table_search {
+  margin: 15px 0 10px 0;
+  float: right;
+}
+
+#table_search .select_box {
+  height: 25px;
+  width: 60px;
+  background-color: #fefded;
+}
+
+#table_search .input_box {
+  background-color: #fefded;
+  height: 20px;
+  width: 200px;
+  border: 1px solid #333;
+  margin: 0 0 0 5px;
+  border-radius: 5px;
+}
+
+#table_search .btn {
+  padding: 2px;
+  margin: 0 30px 0 5px;
+  width: 70px;
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  color: #fff;
+  background: url(./assets/images/t_back.jpg) repeat-x center center;
+}
+
+#page_control {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#page_control a {
+  padding: 2px 5px;
+  text-decoration: none;
+  color: #333;
+  margin: 0px 5px;
+}
+
+#page_control a:hover {
+  font-weight: bold;
+  color: #f90;
+  text-decoration: underline;
+}
+
+#contents #board tr:hover {
+  background-color: #eefdff;
+  cursor: pointer;
+}
+
+#contents .btn {
+  padding: 2px;
+  margin: 0 30px 10px 5px;
+  width: 70px;
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  color: #fff;
+  background: url(./assets/images/t_back.jpg) repeat-x center center;
+  float: right;
+}
