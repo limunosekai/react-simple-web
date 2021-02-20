@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 
 class Content extends Component {
+  // 초기 state
   state = {
     value: '',
   };
-
+  // 입력시마다 state에 저장하는 핸들러
   onChangeHandler = (event) => {
     this.setState({
       value: event.target.value,
     });
   };
-
+  // submit 이벤트를 처리하는 로직
   check = (event) => {
     event.preventDefault();
     if (this.state.value === '') {
